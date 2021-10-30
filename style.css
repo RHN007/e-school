@@ -15,14 +15,16 @@
 
 body{
     font-family: 'Poppins' , sans-serif ;
+    width: 1440px;
 }
 
 .first-section{
     background-color: #F0FFF0;
-    width: 1440px;
+    
     height: 576px;
     left: 0px;
     top: 0px;
+   
 }
 
 
@@ -37,4 +39,66 @@ body{
 
 .banner-img{
     width: 60%;
+}
+
+p{
+    color: #6C6B6B;
+}
+
+
+
+.card img{
+    padding: 5px;
+    
+}
+.card{
+    border: none;
+    background-color: #F8FFFB;  
+    border-radius: 10px;  
+    position: relative;
+    padding: 20px;
+    padding-top: 0px;
+    width:100%;
+    margin:20px;
+}
+.card-footer{
+    border: none;
+    background-color: whitesmoke;
+}
+.card-footer img{
+   width:  40px;
+   height: 40px;
+   
+}
+.test-img {
+    width: 25%;
+    float: left;
+   
+}
+.test{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+}
+.testimonial-description
+{
+    padding-left: 20px;
+  
+}
+.final-section{
+    background-color: black;
+    color:#ffffff;
+}
+.list-group{
+    background-color: none;
+}
+li {
+    list-style-type: none;
+}
+
+.final-section{
+    padding:30px 30px 0px 30px;
+}
+small{
+    padding-top: 40px;
 }
